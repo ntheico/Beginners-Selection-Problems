@@ -1,10 +1,6 @@
-password = "Macleans Sucks"
-guessCount = 0
-guess = input("Enter password: ")
-guessCount = guessCount + 1
-while guess != password and guessCount < 3:
-    guess = input("Enter password: ")
-if guessCount >= 3:
-    then
-    Stop guess
-print("Locked")
+x = int(input("What is your height in centemetres?"))
+if 130 >= x:
+    print("you can ride")
+
+elif 130 < x:
+    print("Leave")
